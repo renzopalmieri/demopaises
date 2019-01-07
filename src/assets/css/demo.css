@@ -1,0 +1,197 @@
+
+
+
+.normal {
+    flex: 0 0 100%;
+    max-width: 100%;  }
+
+
+  .active {
+    flex:  85%;
+    flex-direction: row-reverse;
+    max-width: 82%;
+    padding: 0%;
+
+  }
+
+  .navbar {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background-color:white !important;
+    margin-bottom: 0 !important;
+    font-size: .85rem;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.1) !important;
+    -moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, 0.1) !important;
+    box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, 0.1) !important;
+  }
+
+  .btn-primary{
+    background-color: #ff5b6b  !important;
+    padding: 12px 25px !important;
+    position: relative;
+    margin: 0.3125rem 1px;
+    min-width: auto;
+    font-size: .70rem;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    letter-spacing: 0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0.2rem;
+    outline: 0;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: box-shadow, transform;
+  }
+  .btn-primary:hover{
+    background-color: #045ba3 !important;
+  }
+
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: rgba(0,0,0,.6);
+  }
+
+
+
+  .card .card-header{
+    font-size: 17px;
+    padding: 6px !important;
+    background-color: #ff5b6b  !important;
+
+  }
+  .card-body{
+    padding: 0.3rem !important;
+  }
+
+  .card-header {
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+
+  }
+
+  .bs-datepicker {
+    margin-left: 100px !important;
+  }
+
+  .highcharts-credits{
+    cursor: none !important;
+    color: transparent !important;
+    fill: none !important;
+  }
+
+  @media (min-width: 768px){
+    .col-md-12 {
+        padding-top : 15px;
+    }
+  }
+
+
+.lateralbar{
+    margin-right: -3%;
+}
+
+.activeButton {
+    color: #ffffff;
+    background-color: #0c7cd5 !important;
+    border-color: #0b75c9 !important;
+    padding: 12px 25px !important;
+    position: relative;
+    margin: 0.3125rem 1px;
+    min-width: auto;
+    font-size: .70rem;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    letter-spacing: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+
+    border-radius: 20px;
+    outline: 0;
+    transition: box-shadow 0.6s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: box-shadow, transform;
+  }
+
+  .btn.btn-link{
+    color:white !important;
+  }
+
+  .card-header.titulo{
+    background-color: transparent !important;
+  }
+
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    color:white;
+    text-decoration: none;
+    border-color: #0b75c9 !important;
+    background-color: #0b75c9 !important;
+}
+
+.dropdown-menu {
+    border: 0.07em solid;
+    border-radius: 0 0  12px 12px;
+    border-color: #0b75c9 !important;
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.5) !important;
+    -moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, 0.5) !important;
+    box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, 0.5) !important;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+
+
+.dropdown-menu::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: none;
+    border-bottom: 0;
+    border-left: none;
+}
+
+.margin-button{
+    margin-right: -20px !important;
+}
+
+
+.dropdown-menu{
+  max-height: 300px; /*Provide height in pixels or in other units as per your layout*/
+  overflow-y: auto; /*Provide an auto overflow to diaply scroll*/
+ }
+
+
+ .navbar-light .navbar-brand {
+  color: gray !important;
+}

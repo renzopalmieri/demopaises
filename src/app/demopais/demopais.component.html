@@ -1,0 +1,44 @@
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<!-- optional -->
+<script src="http://code.highcharts.com/modules/offline-exporting.js"></script>
+<script src="http://code.highcharts.com/modules/export-data.js"></script>
+
+
+<ng-progress></ng-progress>
+                        <div class="row">
+                                <div class="col-sm-auto" >
+                                    <div class="btn-group" dropdown >
+                                        <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+                                                aria-controls="dropdown-basic">
+                                          {{pais}} <span class="caret"></span>
+                                        </button>
+                                        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                                            role="menu" aria-labelledby="button-basic">
+                                          <li role="menuitem" *ngFor="let boton of countries;">
+                                              <button class="dropdown-item" (click)="filtro(index,boton,$event)">
+                                                  {{boton.name}}
+                                                  </button>
+                                          </li>
+
+                                        </ul>
+
+                                      </div>
+                                </div>
+                        </div>
+
+        <br>
+
+
+                        <div class="row" >
+                                <div class="col">
+                                        <div class="card card-chart">
+                                                <div class="card card-header">
+                                                       {{itemSelected}}
+                                                </div>
+                                                <div class="card-body">
+                                                <div [chart]="chart"></div>                                                        <p class="card-category">
+
+                                                        </div>
+                                        </div>
+                                </div>
+                        </div>
